@@ -3,7 +3,7 @@
 pkgname=perl-http-cookies
 _pkgreal=HTTP-Cookies
 pkgver=6.11
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="HTTP cookie jars"
 url="https://metacpan.org/release/HTTP-Cookies"
 arch="noarch"
@@ -31,7 +31,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 3ebfa742407a623fdcb23fe7fc559a1667b9510c4c152f98c6d98bcea3df6f336183920636244cd5175b9e9ada4a599bae87433c1ea518739b4eac90a4ca5342  HTTP-Cookies-6.11.tar.gz
 "
